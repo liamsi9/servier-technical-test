@@ -1,0 +1,4 @@
+google-cloud-error-reporting==1.5.2
+google-cloud-firestore==2.4.0
+google-cloud-logging==3.0.0
+google-cloud-bigquery==3.5.0
