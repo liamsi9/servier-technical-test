@@ -50,7 +50,7 @@ UNION ALL (
   INNER JOIN
     `servier-test-technique.servier_technical_test.clinical_trials` AS clinical_trials
   ON
-    LOWER(DRUGS.drug) IN UNNEST(REGEXP_EXTRACT_ALL(LOWER(REGEXP_REPLACE(clinical_trials.scientific_title, r',', ' ')),'[0-9a-zA-Z]+')) )
+    LOWER(drugs.drug) IN UNNEST(REGEXP_EXTRACT_ALL(LOWER(REGEXP_REPLACE(clinical_trials.scientific_title, r',', ' ')),'[0-9a-zA-Z]+')) )
 ```
 
 ## Output
