@@ -3,7 +3,7 @@ from helpers.constants import BUCKET
 
 
 class ReadFileContent(beam.DoFn):
-
+    """Custom reader to read a file from gcs"""
     def setup(self):
         from google.cloud import storage
         self.storage_client = storage.Client()

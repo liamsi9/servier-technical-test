@@ -1,4 +1,4 @@
-"""Bigquery Helper to load and query."""
+"""Bigquery Helper to run bigquery job."""
 
 import json
 import logging

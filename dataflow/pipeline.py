@@ -1,3 +1,5 @@
+"""Dataflow pipeline to read files and save into bigquery"""
+
 import json
 import apache_beam as beam
 from apache_beam.options.pipeline_options import PipelineOptions

@@ -1,5 +1,5 @@
 """
-Main function sync a file to a bucket
+Main function to extract data from bigquery.
 """
 
 import traceback

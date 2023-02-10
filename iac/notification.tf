@@ -11,13 +11,7 @@ resource "google_pubsub_subscription" "bqjobcompleted" {
   name                 = "sub-topic-job-completed"
   topic                = google_pubsub_topic.bqjobcompleted.id
   ack_deadline_seconds = 600
-//  push_config {
-//    push_endpoint = ""
-//
-//    oidc_token {
-//      service_account_email = google_service_account.default.email
-//    }
-//  }
+
 }
 
 
