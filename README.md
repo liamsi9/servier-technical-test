@@ -14,7 +14,7 @@ The technical test follows this architecture:
 ## Terraform infrastructure
 
 This module creates several resources:
- - `database.tf`: create `drugs`, , `pubmed` , `clinical_trials` and `output` tables
+ - `database.tf`: create `drugs` , `pubmed` , `clinical_trials` and `output` tables
  - `iam.tf`: service account creation and roles attributions
  - `notification.tf`: creates pubsub topic and subscription
  - `storage.tf`: bucket creation
